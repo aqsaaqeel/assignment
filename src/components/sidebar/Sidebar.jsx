@@ -5,7 +5,7 @@ import user_icon from "../../assets/user_icon.png";
 
 export const Sidebar = () => {
   return (
-    <div className="bg-black w-auto m-10 sm:p-10 sm:m-10 rounded-3xl min-w-fit">
+    <div className="bg-black w-auto m-10 sm:p-10 sm:m-10 rounded-3xl min-w-fit flex flex-col justify-between">
       <div className="text-white font-bold text-4xl mb-4 hidden sm:block md:block lg:block">
         Board.
       </div>
@@ -34,6 +34,10 @@ export const Sidebar = () => {
           </div>
           <p className="hidden sm:block md:block lg:block">Reports</p>
         </li>
+      </ul>
+      <ul className="mt-auto">
+        <li className="text-white hover:text-gray-400">Help</li>
+        <li className="text-white hover:text-gray-400">Contact Us</li>
       </ul>
     </div>
   );
