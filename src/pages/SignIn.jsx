@@ -16,15 +16,15 @@ export const SignIn = () => {
           <h2 className="text-3xl font-bold mb-2">Sign In</h2>
           <p className="text-gray-600 mb-8">Sign in to your account</p>
           <div className="flex mb-4">
-            <button className="bg-white text-gray-400 font-bold py-2 px-2 mr-2 mb-3 rounded-full w-full flex items-center justify-center text-sm">
+          <Link to="/dashboard"><button className="bg-white text-gray-400 font-bold py-2 px-2 mr-2 mb-3 rounded-full w-full flex items-center justify-center text-sm">
               <img src={google_icon} className="mr-2"></img>
               <span className="font-thin text-sm">Sign in with Google</span>
-            </button>
+            </button></Link>
             <p className="m-4">{"  "}</p>
-            <button className="bg-white text-gray-400 font-bold py-2 px-2 mr-2 mb-3 rounded-full w-full flex items-center justify-center text-sm">
+            <Link to="/dashboard"><button className="bg-white text-gray-400 font-bold py-2 px-2 mr-2 mb-3 rounded-full w-full flex items-center justify-center text-sm">
               <img src={apple_icon} className="mr-2"></img>
               <span className="font-thin text-sm">Sign in with Apple</span>
-            </button>
+            </button></Link>
           </div>
           <form className="bg-white p-10 rounded-2xl">
             <div className="mb-4 ">
